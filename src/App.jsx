@@ -4,6 +4,7 @@ import Hero from './Components/Hero'
 import About from './Components/About'
 import Skill from './Components/Skill'
 import Work from './Components/Work'
+import Contact from './Components/Contact'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <About/>
       <Skill/>
       <Work/>
+      <Contact/>
     </main>
     </>
   )

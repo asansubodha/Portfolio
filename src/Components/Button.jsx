@@ -26,7 +26,7 @@ function ButtonPrimary({ href, target = "self", label, icon, classes }) {
   }
 }
 
-ButtonPrimary.PropTypes = {
+ButtonPrimary.propTypes = {
   label: PropTypes.string.isRequired,
   href: PropTypes.string,
   target: PropTypes.string,
@@ -60,7 +60,7 @@ function ButtonOutline({ href, target = "self", label, icon, classes }) {
   }
 }
 
-ButtonOutline.PropTypes = {
+ButtonOutline.propTypes = {
   label: PropTypes.string.isRequired,
   href: PropTypes.string,
   target: PropTypes.string,

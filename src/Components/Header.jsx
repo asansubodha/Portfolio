@@ -49,8 +49,8 @@ function Header() {
         {/* Mobile Navigation Menu */}
         {isMenuOpen && (
           <div
-            className="absolute top-24 left-0 w-full bg-white
-          flex flex-col items-center gap-6 font-semibold text-lg
+            className="absolute top-24 right-0 w-1/2 bg-white
+          flex flex-col items-center gap-3 font-semibold text-lg
           opacity-100 transition-opacity duration-300"
           >
             <li className="navlistmd">

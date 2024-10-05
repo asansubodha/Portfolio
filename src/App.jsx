@@ -5,6 +5,7 @@ import About from './Components/About'
 import Skill from './Components/Skill'
 import Work from './Components/Work'
 import Contact from './Components/Contact'
+import Footer from './Components/Footer'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Work/>
       <Contact/>
     </main>
+    <Footer/>
     </>
   )
 }
